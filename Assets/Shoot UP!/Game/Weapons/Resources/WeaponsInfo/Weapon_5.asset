@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fbb03a7911ff04bb620b88c4c46d38, type: 3}
+  m_Name: Weapon_5
+  m_EditorClassIdentifier: 
+  _id: 5
+  _shotForce: 10
+  _shotTorque: 30
+  _maxAngularVelocity: 150
+  _bulletPrefab: {fileID: 8036591407935788166, guid: 0acdf6f819f81b74cb369d844abd3889, type: 3}
+  _bulletPoolCapacity: 5
+  _bulletSpeed: 25
+  _maxCenterOffset: 3
+  _clipCapacity: 14
+  _reloadTime: 1.25
+  _shieldColor: {r: 0.25448513, g: 0, b: 1, a: 1}
+  _outlineColor: {r: 1, g: 0, b: 0.9607843, a: 0.9019608}
+  _sprite: {fileID: 21300000, guid: 6917c7202bdb58b4ca213f7d87afb37c, type: 3}
+  _shootSound: {fileID: 8300000, guid: bbb3be4dc8e051c41859c37f16f1eb5d, type: 3}
